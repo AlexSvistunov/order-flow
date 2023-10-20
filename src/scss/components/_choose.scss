@@ -1,5 +1,6 @@
 .choose {
-  padding: var(--offset) 0;
+  // padding: var(--offset) 0;
+  padding-top: var(--offset);
 
   &__title {
     margin-bottom: 36px;
@@ -66,6 +67,10 @@
     line-height: 120%;
     margin-bottom: 24px;
 
+  }
+
+  &__el1-descr {
+    margin: 0;
   }
 
   &__el2 {

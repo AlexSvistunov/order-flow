@@ -1,0 +1,28 @@
+.fulfillment {
+  padding: var(--offset) 0;
+
+}
+
+
+.fulfillment-block {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    margin: 0;
+    color: var(--dark-color);
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  &__descr {
+    margin: 0;
+  }
+
+  &__descr:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
