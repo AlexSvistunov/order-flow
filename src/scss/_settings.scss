@@ -11,6 +11,8 @@ html {
 .page {
   height: 100%;
   font-family: var(--font-family, sans-serif);
+  font-weight: 400;
+  color: var(--dark-color);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -29,6 +31,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .site-container {
