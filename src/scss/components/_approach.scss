@@ -1,0 +1,35 @@
+.approach {
+  padding: var(--offset) 0;
+
+  &__title {
+    margin-bottom: 36px;
+  }
+
+  &__items {
+    grid-template-rows: repeat(2, 131px);
+
+
+  }
+
+  &__item {
+    grid-column: 6 span;
+    padding: 24px;
+    border-radius: 24px;
+    background: var(--light-color);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  }
+
+  &__item-head {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  &__item-descr {
+    margin: 0;
+    color: #7D7D7D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%; 
+  }
+}

@@ -1,0 +1,88 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 118px);
+
+  &__inner {
+    background-color: #F9FAFC;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    
+  }
+
+
+  &__row {
+    position: relative;
+  }
+
+  &__box {
+    position: absolute;
+    top: 16px;
+    right: 23px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    position: relative;
+    margin: 0;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 24px;
+  }
+
+
+  &__descr {
+    margin: 0;
+    color: var(--gray-color, #717A8A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+  }
+
+  &__content {
+    max-width: 527px;
+  }
+
+  &__btn {
+    align-self: flex-start;
+    margin-top: auto;
+  }
+
+  &__box-img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/svg/ozon.svg');
+    @include bg-cover;
+  }
+  &__box-img--wb {
+    background-image: url('../img/svg/wb.svg');
+  }
+
+  &__box-img--yandex {
+    background-image: url('../img/svg/yandex.svg');
+  }
+
+  &__images {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 163px;
+      height: 28px;
+      bottom: 20px;
+      right: 0;
+      background-image: url('../img/svg/check.svg');
+    }
+  }
+
+  
+
+}
