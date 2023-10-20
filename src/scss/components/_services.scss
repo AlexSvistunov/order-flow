@@ -16,6 +16,8 @@
     background-position: top 24px right 24px;
     grid-column: 4 span;
     min-height: 183px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__item:nth-child(2) {
@@ -25,5 +27,17 @@
   &__item:nth-child(3) {
     background-image: url('../img/svg/services-3.svg');
 
+  }
+
+  &__item-head {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  &__item-descr {
+    margin: 0;
+    margin-top: auto;
   }
 }
