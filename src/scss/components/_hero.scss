@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 118px);
+  min-height: 100vh;
 
   &__inner {
     background-color: #F9FAFC;
     border-radius: 24px;
     padding: 48px;
     display: flex;
-    
+
   }
 
 
@@ -43,7 +43,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
   }
 
   &__content {
@@ -83,6 +83,6 @@
     }
   }
 
-  
+
 
 }
