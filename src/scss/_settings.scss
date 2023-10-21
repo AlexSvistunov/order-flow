@@ -130,3 +130,17 @@ a {
   font-weight: 500;
   line-height: 120%;
 }
+
+.grid {
+  @include big-desktop {
+    grid-template-columns: repeat(8,1fr);
+  }
+
+  @include small-tablet {
+    grid-template-columns: repeat(4,1fr);
+  }
+
+
+}
+
+
