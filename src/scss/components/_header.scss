@@ -5,6 +5,8 @@
   width: 100%;
   padding: 37px 0;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+  z-index: 5;
+  background-color: var(--light-color);
 
   &__container {
     display: flex;

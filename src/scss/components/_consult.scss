@@ -1,0 +1,63 @@
+.consult {
+  padding: 36px 0;
+  background-color: #D9E7FF;
+
+  &__row {
+    grid-column: 6 span;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 500;
+    & span {
+      color: var(--grey-color);
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  &__form {
+    grid-column: 8 / 5 span;
+  }
+
+
+}
+
+.consult-form {
+
+  &__box {
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    display: block;
+    color: var(--grey-color);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 30px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 1px solid #C2C5CC;
+    background: var(--light-color);
+  }
+
+  &__data {
+    color: var(--grey-color, #7D7D7D);
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    padding-left: 23px;
+
+    & a {
+      color: var(--blue-color, #3755FA);
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 120%;
+    }
+
+  }
+}

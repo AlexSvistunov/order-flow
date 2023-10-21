@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding-top: 118px;
 
   &__inner {
     background-color: #F9FAFC;
@@ -39,7 +40,7 @@
 
   &__descr {
     margin: 0;
-    color: var(--gray-color, #717A8A);
+    color: var(--grey-color, #717A8A);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
