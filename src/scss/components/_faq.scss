@@ -63,7 +63,7 @@
 
   &__item-text {
     opacity: 0;
-    transition: max-height .35s ease-in-out;
+    transition: max-height .35s ease-in-out, opacity 0.35s ease-in-out;
     max-height: 0;
     overflow: hidden;
     margin: 0;
