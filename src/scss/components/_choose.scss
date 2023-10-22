@@ -16,11 +16,19 @@
     padding: 48px;
     grid-column: 8 span;
     background-image: url('../img/checks.png');
+
+    @include big-desktop {
+      grid-column: 4 span;
+    }
   }
 
   &__el1-head {
     margin: 0;
     font-size: 36px;
+
+    @include tablet {
+      font-size: 22px;
+    }
   }
 
   &__el2 {
@@ -33,6 +41,12 @@
     background-repeat: no-repeat;
     background-size: 68px 68px;
     background-position: top 48px left 48px;
+
+    @include mobile {
+      background-size: 50px 50px;
+      background-position: top 10px left 50px;
+      padding: 60px 50px 30px;
+    }
   }
 
   &__el2-head {
@@ -40,6 +54,10 @@
     font-size: 36px;
     line-height: 120%;
     margin-bottom: 24px;
+
+    @include tablet {
+      font-size: 22px;
+    }
   }
 
   &__el2-descr {
@@ -60,6 +78,7 @@
     background-repeat: no-repeat;
     background-size: 65px 65px;
     background-position: top 48px left 48px;
+
   }
 
   &__el1-head {
@@ -67,6 +86,10 @@
     font-size: 36px;
     line-height: 120%;
     margin-bottom: 24px;
+
+    @include tablet {
+      font-size: 22px;
+    }
 
   }
 
@@ -83,6 +106,15 @@
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 111% 55%;
+
+    @include big-desktop {
+      background-image: none;
+      grid-column: 4 span;
+    }
+
+    @include tablet {
+      font-size: 22px;
+    }
   }
 
   &__el2-head {
@@ -90,6 +122,10 @@
     line-height: 120%;
     margin: 0;
     margin-bottom: 24px;
+
+    @include tablet {
+      font-size: 22px;
+    }
 
   }
 

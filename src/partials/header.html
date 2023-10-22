@@ -6,7 +6,7 @@
       <span class="logo__text">order-flow.ru </span>
     </a>
 
-    <nav class="nav" title="navigation">
+    <nav class="nav" title="navigation" data-menu>
       <ul class="list-reset nav__list">
         <li class="nav__item">
           <a href="#" class="nav__link">Преимущества</a>
@@ -23,17 +23,23 @@
     </nav>
 
     <div class="header__right">
-      <a class="header__phone" href="tel:79827623890">+7 (982) 762-38-90</a>
+      <div class="header__right-box">
+        <a class="header__phone" href="tel:79827623890">+7 (982) 762-38-90</a>
 
-      <ul class="socials list-reset">
-        <li class="socials__item">
-          <a class="socials__link socials__link--tg" href="#"></a>
-        </li>
+        <ul class="socials list-reset">
+          <li class="socials__item">
+            <a class="socials__link socials__link--tg" href="#"></a>
+          </li>
 
-        <li class="socials__item">
-          <a class="socials__link socials__link--vk" href="#"></a>
-        </li>
-      </ul>
+          <li class="socials__item">
+            <a class="socials__link socials__link--vk" href="#"></a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
     </div>
   </div>
 </header>

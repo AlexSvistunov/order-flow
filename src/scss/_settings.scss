@@ -143,4 +143,21 @@ a {
 
 }
 
+@include big-desktop {
+  :root {
+    --offset: 85px;
+  }
+}
+
+@include tablet {
+
+  .section-title {
+    font-size: 28px;
+  }
+  :root {
+    --offset: 60px;
+  }
+}
+
+
 
